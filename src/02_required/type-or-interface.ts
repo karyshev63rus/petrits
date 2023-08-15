@@ -39,3 +39,5 @@ const adminConfig: IConfigWithRole = {
 };
 
 console.log('from interface', adminConfig);
+
+export {};

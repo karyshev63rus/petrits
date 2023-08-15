@@ -18,3 +18,5 @@ const userDataTupleNumbers: [boolean, ...number[], string] = [
     76,
     'Mick',
 ];
+
+export {};

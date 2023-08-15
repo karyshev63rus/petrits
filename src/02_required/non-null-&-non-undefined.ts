@@ -9,3 +9,5 @@ function prntDbName(db?: string) {
     dbName = 'Postgres';
     console.log(db!.toLowerCase());
 }
+
+export {};

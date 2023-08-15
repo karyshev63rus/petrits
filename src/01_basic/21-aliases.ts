@@ -9,3 +9,5 @@ function createAnimaiton(
 ): void {
     console.log(`${id} ${timingFunc}`);
 }
+
+export {};

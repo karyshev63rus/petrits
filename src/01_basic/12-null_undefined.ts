@@ -12,3 +12,5 @@ const test5: undefined = undefined;
 const test6: any = undefined;
 // const test7: string = undefined;
 // const test8: number = undefined;
+
+export {};

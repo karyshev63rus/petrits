@@ -36,3 +36,5 @@ const enum Directions2 {
     BOTTOM,
     LEFT,
 }
+
+export {};

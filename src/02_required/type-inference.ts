@@ -17,3 +17,5 @@ if (isOK) {
 
 const role = 'admin'; // тип 'admin'
 let role2 = 'admin'; // тип string
+
+export {};

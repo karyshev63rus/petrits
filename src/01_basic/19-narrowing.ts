@@ -59,3 +59,5 @@ function logValue(x: string | Date): void {
 function prntSlice(data: string | number[]): void {
     console.log(data.slice(0, 3));
 }
+
+export {};

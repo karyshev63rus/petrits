@@ -15,3 +15,5 @@ function logBrtMsg(isBirthDay: boolean, name: string, age: number) {
         return createError('Error');
     }
 }
+
+export {};

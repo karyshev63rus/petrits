@@ -15,3 +15,5 @@ type User = {
 function sendUserData(obj: User, db?: string): void {
     console.log(obj.parents?.father?.toLowerCase, db?.toLowerCase);
 }
+
+export {};

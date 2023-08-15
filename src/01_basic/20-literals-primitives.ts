@@ -20,3 +20,5 @@ function startServer(
     }
     return 'Server started';
 }
+
+export {};

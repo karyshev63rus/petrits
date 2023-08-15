@@ -11,3 +11,5 @@ function logBrtMsg(isBirthDay: boolean, name: string, age: number): string {
 let congrat = logBrtMsg(true, 'Mick', 46);
 
 console.log(congrat);
+
+export {}

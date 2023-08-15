@@ -29,3 +29,5 @@ const logBrtMsgDestr = ({
         return 'Oops';
     }
 };
+
+export {};

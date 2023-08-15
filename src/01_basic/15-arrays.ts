@@ -12,3 +12,5 @@ const nums2: number[][] = [
 const report = departments
     .filter((d: string) => d !== 'dev')
     .map((d: string) => console.log(`${d} - done`));
+
+export {};

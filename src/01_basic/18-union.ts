@@ -10,3 +10,5 @@ function prntMsg(msg: string | number): void {
 
 prntMsg('Hi');
 prntMsg(42);
+
+export {};

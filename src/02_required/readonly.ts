@@ -25,3 +25,5 @@ const basicPorts: ReadonlyArray<number> = [3000, 5000];
 
 // basicPorts[0] = 3001 // "Сигнатура индекса в типе "readonly number[]" разрешает только чтение"
 // basicPorts.push(5555) // Свойство "push" не существует в типе "readonly number[]"
+
+export {};
