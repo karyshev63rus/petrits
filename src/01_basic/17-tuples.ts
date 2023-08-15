@@ -1,5 +1,5 @@
 const userDataTuple: [boolean, number, string] = [true, 46, 'Mick'];
-const [isBirthDay, age, userName] = userDataTuple;
+const [isBirthDay, age, userName] = userDataTuple; // деструктуризация кортежа
 const userDataTupleStrings: [boolean, number, ...string[]] = [
     true,
     46,

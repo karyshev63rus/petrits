@@ -14,3 +14,5 @@ const startServer: (protocol: 'http' | 'https', port: 3000 | 3001) => string = (
 };
 
 startServer(serverConfig.protocol, serverConfig.port);
+
+export {};
