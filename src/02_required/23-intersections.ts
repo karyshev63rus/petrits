@@ -12,8 +12,6 @@ const serverConfig: ConfigWithRole = {
 
 const backupConfig: Config = { protocol: 'https', port: 3001 };
 
-export { Config, Role, ConfigWithRole };
-
 console.log(serverConfig, backupConfig);
 
-export {};
+export { Config, Role, ConfigWithRole };

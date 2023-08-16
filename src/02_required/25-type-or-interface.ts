@@ -1,4 +1,4 @@
-import { Config, Role } from './intersections';
+import { Config, Role } from './23-intersections';
 
 // Если нужен примитивный тип для псевдонима - типы
 
@@ -18,13 +18,17 @@ const adminConfigFromType: ConfigWithRole = {
 
 console.log('from type', adminConfigFromType);
 
+// interface IProtocol 'http' | 'https' поместить литерал в интерфейс не удастся
+
 interface IConfig {
     protocol: 'http' | 'https';
     port: 3000 | 3001;
 }
+
 interface IRole {
     role: 'admin';
 }
+
 interface IConfigWithRole extends IConfig, IRole {}
 
 interface IConfigWithRole {
